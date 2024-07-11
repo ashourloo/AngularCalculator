@@ -1,0 +1,29 @@
+.calculator{
+  width: 250px;
+  background-color: silver;
+  border-radius: 3px;
+  padding: 5px;
+  border: 1px solid rgb(118, 118, 118);
+}
+.calculator .top{
+  padding: 5px;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 3px;
+  background-color: lightgray;
+}
+.calculator .bottom{
+  padding: 3px;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 3px;
+  background-color: lightgray;
+  font-size: x-large;
+}
+.calculator .buttons{
+  display: flex;
+  flex-wrap: wrap;
+}
+.calculator .buttons button{
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
